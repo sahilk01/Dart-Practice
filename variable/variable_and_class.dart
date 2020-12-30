@@ -25,3 +25,14 @@ class Profile{
     return 5;
   }
 }
+
+// Hi this is a one line comment
+
+/*
+hi this
+    is
+a
+multiline commment*/
+
+/// asdkas asjdhjkas Profile ans
+/// alkjd
