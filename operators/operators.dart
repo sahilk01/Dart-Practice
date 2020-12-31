@@ -7,6 +7,7 @@ main(){
   print(a);
   yoyu();
   checkingObjectType();
+  pureConditional();
 }
 
 
@@ -24,6 +25,19 @@ checkingObjectType(){
     print("this is Sahil Class");
   } else {
     print("this is not Sahil Class");
+  }
+}
+
+pureConditional(){
+
+  print("-------------------pure conditional is starting-----------------");
+  var a = 4;
+  if (a==5){
+    print("this is 5");
+  } else if (a > 5){
+    print("a is greater than 5");
+  } else {
+    print("a is lower than 5");
   }
 }
 
