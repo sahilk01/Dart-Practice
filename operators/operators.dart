@@ -8,6 +8,7 @@ main(){
   yoyu();
   checkingObjectType();
   pureConditional();
+  switchCase();
 }
 
 
@@ -38,6 +39,21 @@ pureConditional(){
     print("a is greater than 5");
   } else {
     print("a is lower than 5");
+  }
+}
+
+switchCase(){
+
+  print("--------------starting switch case---------------");
+  var a = 5;
+  switch(a) {
+    case 1: print("this is one");
+    break;
+    case 2: print("a is 2");
+    break;
+    default:
+      print("this is 5");
+
   }
 }
 
